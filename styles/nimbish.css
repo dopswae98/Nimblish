@@ -1,0 +1,356 @@
+@import url('https://fonts.cdnfonts.com/css/darumadrop-one');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.nav-section{
+    background: rgba(0, 7, 25, 0.10);
+    backdrop-filter: blur(100px);
+}
+
+.font1 {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+.font2 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: rgb(254, 84, 5);
+}
+.btn:hover {
+    background-color: rgb(0, 0, 34) !important;
+    color:rgb(254, 84, 5) !important;
+}
+.btn1 {
+    width: 180px;
+}
+.btn2 {
+    width: 180px;
+}
+
+.btn1:hover {
+    background-color: rgb(0, 0, 34) !important;
+    color: rgb(254, 84, 5) !important;
+    width: 180px;
+}
+
+.hero-about-image{
+    width: 234px;
+height: 159px;
+border-radius: 15px;
+background: lightgray 50% / cover no-repeat, #FEFAF7;
+}
+
+.hero-about-image1{
+    width: 234px;
+height: 249px;
+border-radius: 15px;
+background: lightgray 50% / cover no-repeat, #FEFAF7;
+
+}
+.hero-about-image2{
+    width: 187px;
+    height: 249px;
+    border-radius: 15px;
+    background: lightgray -2px 2.045px / 102.139% 100% no-repeat, #FEFAF7;
+}
+.hero-about-image3{
+    width: 234px;
+    height: 249px;
+    border-radius: 15px;
+background:lightgray -123.597px 0px / 159.615% 100% no-repeat, #FEFAF7;
+}
+
+.text1 {
+    color: rgb(254, 84, 5) !important;
+}
+.rev1 {
+    background-color: rgb(120, 30, 132) !important;
+}
+.rev2 {
+    background-color: rgb(20, 195, 138) !important;
+}
+.rev3 {
+    background-color: rgb(14, 24, 95) !important;
+}
+.rev4 {
+    background-color: rgb(31, 121, 150) !important;
+}
+.rev5 {
+    background-color: rgb(111, 69, 31) !important;
+}
+
+.btn2:hover {
+    width: 180px;
+    background-color: rgb(254, 84, 5) !important;
+    color: rgb(0, 0, 34) !important;
+}
+
+.text2{
+    color: rgb(0, 0, 34) !important;
+}
+
+.bg12 {
+    background-color: rgb(25, 238, 233) !important;
+}
+.bg1 {
+    background-color: rgb(25, 238, 233) !important;
+}
+.bg1 {
+    background-color: rgb(254, 84, 5) !important;
+}
+.bg3 {
+    background-color: #E36B08 !important;
+}
+
+.bg2 {
+    background-color: rgb(0, 0, 34);
+}
+.outline1 {
+    background-color: rgb(0, 0, 34);
+    border: 1.5px solid rgb(254, 84, 5);
+}
+
+.shadow {
+    box-shadow: 0.5rem 0.5rem rgb(255, 210, 7), -0.5rem -0.5rem #e5bf00;
+}
+.shadow2 {
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+}
+.shadow1 {
+    border-radius: 1.25rem;
+background: #FFF;
+box-shadow: 0px 0px 20px 2px rgba(227, 107, 8, 0.12);
+}
+.shadow12 {
+    box-shadow: 0 8px 8px -4px lightblue;
+}
+.shadow4 {
+    box-shadow: 0 8px 8px -4px rgb(253, 250, 243);
+}
+
+/* nav section */
+.blur-effects{
+    filter: blur(5.3px);
+}
+.blur-effect::after{
+    content: "";
+    background-color: rgba(255,255,255,0.1);
+    filter: blur(5px);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    height: 60px;
+}
+
+.nav-link{
+    color: var(--gray-2, #4F4F4F) !important;
+    font-family: SF Pro Display;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.00938rem;
+    text-transform: capitalize !important;
+}
+
+.elipse{
+    width: 884px;
+height: 884px;
+flex-shrink: 0;
+border-radius: 884px;
+opacity: 0.699999988079071;
+background: var(--brand-accent, #E36B08);
+}
+
+.get-text{
+    color: #0D1F37;
+font-family: Darumadrop One;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.25px;
+}
+
+.text-poppins{
+    color: #2E2E2E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.25px;
+}
+
+.get-text2{
+    color: #E36B08;
+font-family: 'Darumadrop One' !important;
+font-size: 60px !important;
+font-style: normal;
+font-weight: 400 !important;
+line-height: normal;
+letter-spacing: 0.25px;
+}
+
+/* SIGN UP */
+
+
+.c {
+    margin-top: 20;
+}
+
+/* mision section */
+.mission-section {
+    background: #FEFAF7;
+}
+.bg8 {
+    background: #FEFAF7;
+}
+.bg4 {
+    background-color: #fffcf6;
+}
+
+.bg5{
+    background: rgba(14, 24, 95, 0.05);
+}
+
+/* sign up */
+
+.signup-text{
+    color: #010101;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2.4px;
+}
+
+/* FOOTER */
+
+.footer-buttons .btn{
+    max-width: 312px;
+}
+
+.footer-header{
+    color: #FDFDFD;
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 120% */
+letter-spacing: 0.15px;
+}
+
+.footer-header .list-unstyled{
+    color: #FDFDFD;
+
+/* Subtitle 2 */
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.15px;
+}
+
+.icons Image{
+    width: 32px;
+    height: 32px;
+}
+
+.footer-section{
+    background-color: rgb(0, 0, 34);
+}
+
+.fa-twitter {
+    color: rgb(4, 167, 199);
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(2, 2, 130);
+    border-radius: 10px;
+}
+
+.linkedin {
+    color: rgb(0, 119, 255);
+}
+
+.icons div {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(2, 2, 130);
+    border-radius: 10px;
+}
+
+.logo-img{
+    width: 224px;
+height: 224px;
+}
+
+.member-role{
+    color: #828282;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 105% */
+letter-spacing: 0.3px;
+}
+
+.member-name{
+    color: #040404;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 87.5% */
+letter-spacing: 0.36px;
+}
+
+/* responsive */
+
+@media screen and (max-width:412px) {
+    .be1{
+        left: 0px !important;
+    }
+    .be2{
+        left: 6px !important;
+    }
+    .be3{
+        right: 0px !important;
+    }
+    .be4{
+        right: 6px !important;
+    }
+    .circle1{
+        right:130px !important;
+    }
+        
+        .circle2{
+        right:20px !important;
+    }
+        
+        .circle3{
+        right:70px !important;
+    }
+    /* right: -100, height: 400, width: 400, top: -100 */
+    .circle1-big{
+        /* right: 0px !important; */
+        /* height: 100px !important;
+        width: 100px !important; */
+        top: -200px !important;
+        left: 150px !important;
+        z-index: -1;
+    }
+    
+}
