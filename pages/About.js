@@ -82,7 +82,7 @@ const About = () => {
       <section className="why-section py-5 bg5">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-6 px-5">
               <p>
                 Lorem ipsum dolor sit amet consectetur. Turpis quis tristique at
                 sem mi odio. Quis urna aliquam senectus mi enim tortor volutpat.
@@ -95,8 +95,8 @@ const About = () => {
                 venenatis. Ipsum risus fermentum vel leo montes sed nec.
               </p>
             </div>
-            <div className="col-md-4">
-              <div className="d-flex h-100 align-items-center justify-content-center">
+            <div className="col-md-6">
+              <div className="d-flex h-100 align-items-center justify-content-start">
                 <h3 className="fw-bold text1 py-4 position-relative">
                   <span
                     className="position-absolute bg1"

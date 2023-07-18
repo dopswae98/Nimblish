@@ -6,7 +6,7 @@ import twitter from "../public/twitter-link.svg";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <div className="py-5 container">
         <div className="row">
           <div className="col-md-3 text-white">

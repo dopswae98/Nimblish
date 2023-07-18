@@ -92,6 +92,16 @@ background:lightgray -123.597px 0px / 159.615% 100% no-repeat, #FEFAF7;
     color: rgb(0, 0, 34) !important;
 }
 
+.text3{
+    color: #2E2E2E;
+text-align: center;
+font-family: DM Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 .bg12 {
     background-color: rgb(25, 238, 233) !important;
 }
@@ -206,6 +216,15 @@ letter-spacing: 0.25px;
     margin-top: 20;
 }
 
+.search-text{
+    color: #7F7F7F;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 116.667% */
+}
+
 /* mision section */
 .mission-section {
     background: #FEFAF7;
@@ -231,6 +250,14 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 2.4px;
+}
+.signup-text2{
+    color: #0E185F;
+font-family: Darumadrop One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 /* FOOTER */
@@ -267,6 +294,9 @@ letter-spacing: 0.15px;
 }
 
 .footer-section{
+    background-color: rgb(0, 0, 34);
+}
+.footer{
     background-color: rgb(0, 0, 34);
 }
 
