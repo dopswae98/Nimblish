@@ -1,9 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css/darumadrop-one');
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+@import url('https://fonts.cdnfonts.com/css/ubuntu-title');
 
 .nav-section{
     background: rgba(0, 7, 25, 0.10);
     backdrop-filter: blur(100px);
+}
+.nav-section2{
+    background: var(--primary, #00237B);
+backdrop-filter: blur(100px);
 }
 
 .font1 {
@@ -102,6 +108,64 @@ font-weight: 400;
 line-height: normal;
 }
 
+.search-text{
+    color: #909090;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.1px;
+}
+
+.contact-text{
+    color: var(--glide-primary-color-500, #006);
+font-family: Ubuntu;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.contact-text2{
+    color: var(--glide-primary-color-500, #006);
+text-align: center;
+font-family: Ubuntu;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 150% */
+}
+
+.contact-border{
+    border-radius: 8px;
+border: 1px solid var(--glide-primary-color-400, #333385);
+}
+
+.contact-text{
+    color: var(--primary-dark-500, #343C44);
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.25px;
+}
+
+.contact-button{
+    border-radius: 4px;
+background: var(--glide-primary-color-500, #006) !important;
+width: 120px;
+padding: 18px 16px;
+}
+
+.steps{
+    border-radius: 56px 0px 0px 16px;
+background: rgba(255, 255, 255, 0.60);
+backdrop-filter: blur(0px);
+}
+
 .bg12 {
     background-color: rgb(25, 238, 233) !important;
 }
@@ -189,6 +253,16 @@ line-height: normal;
 letter-spacing: 0.25px;
 }
 
+.join-text{
+    color: #FFF;
+font-family: Darumadrop One;
+font-size: 79px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 113.924% */
+letter-spacing: 0.1px;
+}
+
 .text-poppins{
     color: #2E2E2E;
 font-family: Poppins;
@@ -197,6 +271,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.25px;
+}
+
+.text-poppins2{
+    color:  #0F172A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
 }
 
 .get-text2{
@@ -223,6 +306,16 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 116.667% */
+}
+
+.accordion-button{
+    color: #030303;
+font-family: DM Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
 }
 
 /* mision section */
@@ -258,6 +351,27 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.answer-text{
+    color: #010101;
+text-align: center;
+font-family: Darumadrop One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 168.7%; /* 80.976px */
+letter-spacing: 0.25px;
+}
+
+.send-us{
+    color: #E36B08;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 168.7%;
+letter-spacing: 0.25px;
 }
 
 /* FOOTER */
@@ -345,6 +459,19 @@ font-style: normal;
 font-weight: 700;
 line-height: 21px; /* 87.5% */
 letter-spacing: 0.36px;
+}
+
+.sally-container{
+    background: lightgray 50% / cover no-repeat;
+}
+
+.sally-img{
+    width: 720px;
+height: 720px;
+}
+
+.bg9{
+    background: linear-gradient(132deg, rgba(173, 112, 62, 0.96) 21.47%, rgba(45, 158, 224, 0.84) 70.25%, rgba(73, 104, 34, 0.94) 99.20%);
 }
 
 /* responsive */

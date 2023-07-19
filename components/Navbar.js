@@ -68,10 +68,16 @@ const Navbar = () => {
                 Login
               </Link>
               <button
-                className="connect-wallet btn btn-outline-info bg1 rounded-pill text-white fw-bold px-4"
+                className="connect-wallet btn bg1 rounded-pill text-white fw-bold px-4"
                 style={{ fontSize: 12 }}
               >
-                Sign Up
+                <Link
+                  href="/Signup"
+                  style={{ textDecoration: "none" }}
+                  className="text-white"
+                >
+                  Sign Up
+                </Link>
               </button>
             </form>
           </div>
