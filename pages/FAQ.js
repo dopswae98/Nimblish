@@ -253,10 +253,10 @@ const FAQ = () => {
         </div>
         <div className="mt-5">
           <div className="row">
-            <div className="col-md-9 mx-auto text-center">
-              <p className="answer-text">
+            <div className="col-md-9 px-3 mx-auto text-center">
+              <p className="answer-text" style={{ lineHeight: 1 }}>
                 Didn’t find any answers to your question?{" "}
-                <span className="sendus">Send us a message</span>{" "}
+                <span className="send-us">Send us a message</span>{" "}
                 <span className="getback">
                   , we will get back to you as soon as possible
                 </span>

@@ -374,6 +374,16 @@ line-height: 168.7%;
 letter-spacing: 0.25px;
 }
 
+.getback{
+    color: #828282;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 168.7%;
+letter-spacing: 0.25px;
+}
+
 /* FOOTER */
 
 .footer-buttons .btn{
